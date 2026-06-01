@@ -1,4 +1,5 @@
 PROJETO DE DETECÇÃO DE FAKE NEWS
+Equipe: Grupo 5 - Enzo Curcio Stival, Henrique de Oliveira Godoy, Hiann Wonsowicz Padilha, João Ishikawa Onofrio e Marcos Paulo Ruppel 
 
 Este repositório contém todos os artefatos, códigos-fonte, dados e
 resultados da avaliação de múltiplas Inteligências Artificiais na tarefa de classificação de notícias como Falsas ou Verdadeiras.
