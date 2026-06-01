@@ -1,0 +1,29 @@
+============================================================
+METRICAS -- Gemini (Vertex AI) no test split (mesmo do BERT)
+============================================================
+Total avaliado:        750
+Falhas/descartados:    0
+
+Accuracy:              0.7413
+Precision (true=1):    0.6247
+Recall    (true=1):    0.9716
+F1        (true=1):    0.7605
+
+Precision (macro):     0.7949
+Recall    (macro):     0.7722
+F1        (macro):     0.7397
+
+Matriz de confusao (linhas = real, colunas = previsto):
+                  Pred FALSA   Pred VERDADEIRA
+  Real FALSA             248               185
+  Real VERDADEIRA          9               308
+
+Relatorio detalhado:
+                precision    recall  f1-score   support
+
+     FALSA (0)     0.9650    0.5727    0.7188       433
+VERDADEIRA (1)     0.6247    0.9716    0.7605       317
+
+      accuracy                         0.7413       750
+     macro avg     0.7949    0.7722    0.7397       750
+  weighted avg     0.8212    0.7413    0.7364       750

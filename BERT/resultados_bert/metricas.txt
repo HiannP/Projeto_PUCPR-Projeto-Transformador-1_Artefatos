@@ -1,0 +1,29 @@
+============================================================
+METRICAS -- DistilBERT multilingual (fine-tunado) no test split
+============================================================
+Total avaliado:        750
+Falhas/descartados:    0
+
+Accuracy:              0.9747
+Precision (true=1):    0.9656
+Recall    (true=1):    0.9748
+F1        (true=1):    0.9702
+
+Precision (macro):     0.9735
+Recall    (macro):     0.9747
+F1        (macro):     0.9741
+
+Matriz de confusao (linhas = real, colunas = previsto):
+                  Pred FALSA   Pred VERDADEIRA
+  Real FALSA             422                11
+  Real VERDADEIRA          8               309
+
+Relatorio detalhado:
+                precision    recall  f1-score   support
+
+     FALSA (0)     0.9814    0.9746    0.9780       433
+VERDADEIRA (1)     0.9656    0.9748    0.9702       317
+
+      accuracy                         0.9747       750
+     macro avg     0.9735    0.9747    0.9741       750
+  weighted avg     0.9747    0.9747    0.9747       750

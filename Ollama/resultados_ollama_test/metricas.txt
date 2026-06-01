@@ -1,0 +1,29 @@
+============================================================
+METRICAS -- llama3.1:8b (Ollama local) no test split (mesmo do BERT)
+============================================================
+Total avaliado:        750
+Falhas/descartados:    0
+
+Accuracy:              0.5360
+Precision (true=1):    0.4766
+Recall    (true=1):    0.9937
+F1        (true=1):    0.6442
+
+Precision (macro):     0.7270
+Recall    (macro):     0.5973
+F1        (macro):     0.4888
+
+Matriz de confusao (linhas = real, colunas = previsto):
+                  Pred FALSA   Pred VERDADEIRA
+  Real FALSA              87               346
+  Real VERDADEIRA          2               315
+
+Relatorio detalhado:
+                precision    recall  f1-score   support
+
+     FALSA (0)     0.9775    0.2009    0.3333       433
+VERDADEIRA (1)     0.4766    0.9937    0.6442       317
+
+      accuracy                         0.5360       750
+     macro avg     0.7270    0.5973    0.4888       750
+  weighted avg     0.7658    0.5360    0.4647       750
