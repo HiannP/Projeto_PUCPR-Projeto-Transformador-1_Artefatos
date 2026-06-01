@@ -1,0 +1,29 @@
+============================================================
+METRICAS -- GPT (OpenAI) no test split (mesmo do BERT)
+============================================================
+Total avaliado:        750
+Falhas/descartados:    0
+
+Accuracy:              0.7507
+Precision (true=1):    0.6327
+Recall    (true=1):    0.9779
+F1        (true=1):    0.7683
+
+Precision (macro):     0.8029
+Recall    (macro):     0.7811
+F1        (macro):     0.7492
+
+Matriz de confusao (linhas = real, colunas = previsto):
+                  Pred FALSA   Pred VERDADEIRA
+  Real FALSA             253               180
+  Real VERDADEIRA          7               310
+
+Relatorio detalhado:
+                precision    recall  f1-score   support
+
+     FALSA (0)     0.9731    0.5843    0.7302       433
+VERDADEIRA (1)     0.6327    0.9779    0.7683       317
+
+      accuracy                         0.7507       750
+     macro avg     0.8029    0.7811    0.7492       750
+  weighted avg     0.8292    0.7507    0.7463       750
